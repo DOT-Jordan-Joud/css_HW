@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+:root{
+    --border:rgb(227, 160, 37);
+}
+#about{
+    text-align: center;
+}
+#about p{
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.card {
+    text-shadow: 1pg gray;
+    box-shadow: 1px -2px 5px 0 gray;    height: 400px;
+    width: 225px;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    border-top: 2px var(--border) solid;
+    
+}
+.card h1{
+    text-shadow: 1px 1px 1px #979393;
+    font-size: medium;
+    text-align: center;
+}
+i{
+    text-decoration: underline var(--border);
+    
+}
+@media (max-width:600px){
+    .cards{
+    flex-direction: column;
+
+}}

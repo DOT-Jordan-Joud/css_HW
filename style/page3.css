@@ -1,0 +1,38 @@
+:root{
+    --line:rgb(198, 137, 22);
+}
+body{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-decoration: underline var(--line);
+    text-shadow: 2px 1px 1px gray;
+}
+#section{
+    height: 300px;
+    width: 500px;
+    margin: 50px;
+    padding: 10px;
+
+}
+.content{
+    color: rgb(90, 88, 88);
+}
+.location{
+height: 150px;
+width: 250px;
+}
+input{
+    height: 20px;
+}
+#txt__message{
+    height: 100px;
+    width: 350px;
+}
+.btn{
+    background-color: rgb(84, 83, 83);
+    color: var(--line);
+    height: 35px;
+    width: 100px;
+}
